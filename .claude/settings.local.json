@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\tumel\\\\Documents\\\\BSC_Comp-Sci_4th_YEAR\\\\Projects\\\\tumelo-portfolio\" -Recurse -Force)",
+      "Bash(Select-Object FullName)",
+      "Bash(Format-Table -AutoSize)",
+      "Bash(Get-ChildItem *)",
+      "Bash(pnpm install *)",
+      "PowerShell(npm *)",
+      "Bash(timeout 8 pnpm dev)",
+      "Bash(pnpm dev *)"
+    ]
+  }
+}
